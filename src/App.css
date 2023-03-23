@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    height: 100vh;
+    width: 100%;
+    margin-left: 0%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-left: 10px;
+    /* background-color: rgb(236, 234, 234); */
+    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fvector-art%2F2151433-global-currency-exchange-network-and-technology-on-blue-background&psig=AOvVaw2vKK5FXY9ix_WfpvStvyd3&ust=1679633900831000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCjxoai8f0CFQAAAAAdAAAAABAD");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading {
+    font-size: 30px;
+    /* background-color: aliceblue; */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.container {
+    height: 180px;
+    width: 600px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input {
+    padding-left: 5px;
+    font-size: 20px;
+    height: 30px;
+}
+
+.flip {
+    padding: 5px;
+    margin-top: 30px;
+    background-color: rgb(198, 204, 214);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.btn {
+    box-sizing: border-box;
+    width: 800px;
+    padding-left: 115px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.output {
+    padding-left: 15px;
+}
+
+p {
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+}
